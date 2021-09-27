@@ -524,10 +524,10 @@ main(){
     installV2Ray "${ZIPFILE}" "${ZIPROOT}" || return $?
     installInitScript "${ZIPFILE}" "${ZIPROOT}" || return $?
     if [[ ${V2RAY_RUNNING} -eq 1 ]];then
-        colorEcho ${BLUE} "Restarting $KEY service."
+        colorEcho ${BLUE} "Reiniciando servicio $KEY ."
         startV2ray
     fi
-    colorEcho ${GREEN} "$KEY ${NEW_VER} is installed."
+    colorEcho ${GREEN} "$KEY ${NEW_VER} instalado."
     rm -rf /tmp/$KEY_LOWER
     return 0
 }
