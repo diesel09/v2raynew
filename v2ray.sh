@@ -237,7 +237,7 @@ installFinish() {
 
         v2ray info
 
-        echo -e "please input 'v2ray' command to manage v2ray\n"
+        echo -e "V2ray instalado exitosamente\n"
     fi
 }
 
