@@ -248,7 +248,7 @@ main() {
 
     [[ ${REMOVE} == 1 ]] && removeV2Ray && return
 
-    [[ ${INSTALL_WAY} == 0 ]] && colorEcho ${BLUE} "new install\n"
+    [[ ${INSTALL_WAY} == 0 ]] && colorEcho ${BLUE} "Script Admin VPS - Iniciando Instalacion...\n"
 
     checkSys
 
