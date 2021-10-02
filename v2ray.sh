@@ -230,7 +230,7 @@ installFinish() {
     cd ${BEGIN_PATH}
 
     [[ ${INSTALL_WAY} == 0 ]] && WAY="install" || WAY="update"
-    colorEcho  ${GREEN} "multi-v2ray ${WAY} success!\n"
+    colorEcho  ${GREEN} "V2ray ${WAY} exitosamente!\n"
 
     if [[ ${INSTALL_WAY} == 0 ]]; then
         clear
