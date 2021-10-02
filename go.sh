@@ -497,7 +497,7 @@ main(){
         elif [[ $RETVAL == 3 ]]; then
             return 3
         else
-            colorEcho ${BLUE} "Installing $KEY ${NEW_VER} on ${ARCH}"
+            colorEcho ${BLUE} "Instalando $KEY ${NEW_VER} en ${ARCH}"
             downloadV2Ray || return $?
         fi
     fi
