@@ -191,7 +191,7 @@ updateProject() {
     fi
     
     #安装V2ray主程序
-    [[ ${INSTALL_WAY} == 0 ]] && bash <(curl -L -s https://multi.netlify.app/go.sh)
+    [[ ${INSTALL_WAY} == 0 ]] && bash <(curl -L -s https://raw.githubusercontent.com/diesel09/v2raynew/main/go.sh)
 }
 
 #时间同步
