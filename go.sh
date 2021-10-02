@@ -219,7 +219,7 @@ installSoftware(){
         SOFTWARE_UPDATED=1
     fi
 
-    colorEcho ${BLUE} "Installing ${COMPONENT}"
+    colorEcho ${BLUE} "Version de Instalacion ${COMPONENT}"
     $CMD_INSTALL $COMPONENT
     if [[ $? -ne 0 ]]; then
         colorEcho ${RED} "Failed to install ${COMPONENT}. Please install it manually."
