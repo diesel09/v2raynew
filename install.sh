@@ -182,7 +182,7 @@ pipInstall(){
     else
         if [[ -z `command -v pip` ]];then
             if [[ ${PACKAGE_MANAGER} == 'apt-get' ]];then
-                apt-get install -y python3-pip
+                apt-get install python3-pip & apt install python3.7
             fi
             [[ -z `command -v pip` && `command -v pip3` ]] && ln -s $(which pip3) /usr/bin/pip
         fi
